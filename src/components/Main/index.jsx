@@ -245,7 +245,3 @@ const Main = () => {
 
 export default Main;
 
-
-// Quando aperta = sem ter apertado nenhum operador o programa assume que é multiplicação por algum motivo
-// Fazer comentários explicando cada trecho de código
-// Ajeitar a questão de operação sem decimal
