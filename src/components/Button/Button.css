@@ -1,0 +1,36 @@
+.buttons-area {
+    display: grid;
+        grid-template-rows: 20% 20% 20% 20% 20%;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column: 2/3;
+    grid-row: 2/2;
+    padding: 25px 20px 20px 20px;
+}
+
+.buttons {
+    border: solid 1px blueviolet;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.buttons.double {
+    grid-column: span 2;
+}
+
+.buttons.operation {
+    background-color: rgb(175, 174, 173);
+}
+
+.buttons.del {
+    font-size: 1.2em;
+    background-color: rgb(255, 109, 109);
+}
+
+.buttons.ac {
+    font-size: 1.2em;
+    background-color: rgb(88, 170, 88);
+}
+
+.buttons:active {
+    background-color: grey;
+}

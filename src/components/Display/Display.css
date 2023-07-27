@@ -1,0 +1,38 @@
+@import url('http://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+.display {
+    display: flex;
+        justify-content: end;
+        padding: 0 15px;
+    align-self: end;
+    grid-column: 1/4;
+    justify-self: center;
+    height: 75%;
+    width: 275px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2em;
+    background-color: black;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px 1px #414141;
+    color: lime;
+    text-shadow: 1px 1px #027102;
+}
+
+p {
+    margin: 0;
+    padding-top: 21px;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+p::-webkit-scrollbar {
+    height: 5px;
+}
+
+p::-webkit-scrollbar-track {
+    background-color: rgb(27, 27, 27);
+}
+
+p::-webkit-scrollbar-thumb {
+    background-color: green;
+}
